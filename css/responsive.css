@@ -1,0 +1,77 @@
+@media only screen and (max-width: 375px) {
+  header {
+    height: 100%;
+    background-image: url(/images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+  }
+  .navbar-collapse {
+    background-color: white;
+    border-radius: 10px;
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .nav-item a {
+    color: grey;
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 40px;
+  }
+  .cross-header img {
+    margin-bottom: 150px;
+  }
+  .resp-switch {
+    flex-direction: column-reverse;
+  }
+  .columntxt h2,
+  .columntxt p {
+    text-align: center;
+    padding: 0 10vmin 5vmin 10vmin;
+  }
+  .columntxt a {
+    padding: 0 36vmin 5vmin 36vmin;
+  }
+  .desktop-image {
+    display: none !important;
+  }
+  .mobile-image {
+    display: block !important;
+  }
+  .section-03-content {
+    width: 80%;
+  }
+  .section-04 {
+    height: 100%;
+  }
+  .client-container {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: none;
+    padding-top: 15vmin;
+  }
+  .section-04 h2 {
+    font-size: 17px;
+    padding-bottom: 8vmin;
+  }
+  .mycard {
+    width: 20em;
+  }
+  footer .row .col-md-3 {
+    width: 50%;
+  }
+  .footer-logo {
+    padding: 15vmin;
+  }
+  .footer-logo img {
+    width: 70%;
+  }
+  .footer-nav {
+    padding-top: 0;
+    padding-bottom: 15vmin;
+  }
+  .footer-nav-item {
+    font-size: 20px;
+  }
+}
